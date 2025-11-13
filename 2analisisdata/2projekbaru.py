@@ -17,12 +17,12 @@ print(matematika)
 
 data.groupby('Mapel')['Nilai'].agg(['max','min'])
 
-# rata = data.groupby('Mapel')['Nilai'].mean()
-# rata.plot(kind='bar')
-# plt.title('Rata-Rata Nilai per Mapel')
-# plt.xlabel('Mata Pelajaran')
-# plt.ylabel('Nilai Rata-Rata')
-# plt.show()
+rata = data.groupby('Mapel')['Nilai'].mean()
+rata.plot(kind='bar')
+plt.title('Rata-Rata Nilai per Mapel')
+plt.xlabel('Mata Pelajaran')
+plt.ylabel('Nilai Rata-Rata')
+plt.show()
 
 sns.boxplot(x='Mapel', y='Nilai', data=data)
 plt.title('Sebaran Nilai per Mata Pelajaran')
