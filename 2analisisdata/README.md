@@ -35,6 +35,8 @@ Modus: 85
 4  Khansa  Matematika     98
 6     Dwi  Matematika     85
 
+![alt text](image.png)
+
 
 **Hasil tabel2:**
 
